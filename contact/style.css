@@ -127,7 +127,6 @@ flex:1;
 .icon{
     font-size:2rem;
     margin-top:3rem;
-    text-align: start;
     color:orangered; 
 }
 
@@ -160,7 +159,7 @@ div label{
     #contact{
         flex-direction: column;
         gap:0rem;
-        height: 80vh;
+        height: 70vh;
     }
     .contact-items{ 
         height:5rem;
@@ -202,6 +201,7 @@ div label{
      }
      form div{
          margin-bottom: 0.9rem;
+         padding-top:0.8rem;
      }
      form input[type="email"], input[type="text"],textarea{
          padding-bottom:0.4rem;
@@ -224,23 +224,25 @@ div label{
         margin-left: 1rem;
     }
     .sidebar h1{
+        text-align: center;
         font-size: 1.8rem;
         font-weight: 500;
         padding-bottom: 1rem;
     }
     .sidebar h2{
+        text-align: center;
         padding-bottom: 0.8rem;
         font-size: 0.7rem;
     }
     .sidebar p{
+        text-align: center;
         font-size: 0.5rem;
     }
     
     .icon{
+        text-align: center;
         font-size:1.2rem;
-        margin-top:1rem;
-        text-align: start;
-       
+        margin-top:1rem;       
     }
     
     .icon i{
