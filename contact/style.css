@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Serif Display', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+/* background-color:black; */
+}
+#contact{
+    position: relative;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    gap:2rem;
+    flex-wrap: wrap; 
+}
+#contact::before{
+    content:" ";
+    position: absolute;
+    background:url(./images/bg.jpg) no-repeat center center/cover;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity:0.5rem;
+}
+
+.contact-items{ 
+   
+    height:15rem;
+    width:15rem;
+    background-color: rgba(248, 248, 248, 0.953);
+    border-radius: 30px;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1.5rem;
+margin-bottom: 5rem;
+}
+.contact-items h2{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Libre Baskerville', serif;
+    padding:1rem;
+}
+.contact-items p{
+    font-size:0.9rem ;
+    padding: 0.8rem;
+    line-height: 1.5rem;  
+}
+.contact-items span{
+    color:orangered;
+}
+.contact-items i{
+    font-size: 3rem;
+    color: orangered;
+    margin:1rem;
+    margin-top: 2rem;
+}
+
+
+/* form */
+
+    
+.form-box{
+    position: relative;
+    display:flex;
+    height:100%;
+    width:100%;
+  background-color: black;
+  color:#fff;
+}
+form{
+    /* display: flex; */
+    flex:1;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-right: 5rem;
+}
+form div{
+    margin-bottom: 2rem;
+    /* margin-left: 4rem; */
+}
+form input[type="email"], input[type="text"],textarea{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    outline:none;
+    color:white;
+    width:100%;
+    padding:1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button{
+     width:100%;
+    height:50px;
+    color:white;
+    background-color: orangered;
+    border-radius:30px;
+    border:none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 1px 1px 2px white;
+    font-size: 1.2rem;
+}
+.sidebar{
+flex:1;
+    margin-top: 3rem;  
+    text-align: start;
+    line-height: 2rem;
+    margin-right: 7rem;
+    margin-left: 5rem;
+}
+.sidebar h1{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+.sidebar h2{
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.icon{
+    font-size:2rem;
+    margin-top:3rem;
+    text-align: start;
+    color:orangered; 
+}
+
+.icon i{
+    padding: 1rem;
+    cursor: pointer;
+}
+.icon i:hover{
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 1px white;
+} 
+.sidebar p{
+    font-size:0.9rem ;
+}
+footer{
+
+    font-size: 1rem;
+    text-align: center;
+    background-color: #14131389;
+    padding:0.9rem;
+}
+div label{
+    padding-left:15px;
+    margin-top:15px;
+}
+
+/* media query */
+
+@media(max-width:1100px){
+    #contact{
+        flex-direction: column;
+        gap:0rem;
+        height: 80vh;
+    }
+    .contact-items{ 
+        height:5rem;
+        width:9rem;
+        margin: auto;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        margin-bottom: 0rem;
+        margin-top: 0.9rem;
+    }
+    .contact-items h2{
+        font-size: 0.5rem;
+        padding:0rem;
+    }
+    .contact-items p{
+        font-size:0.5rem ;
+        padding: 0.5rem;
+    line-height: 0.5rem; 
+    }
+
+    .contact-items i{
+        font-size: 1.5rem;
+        color: orangered;
+        margin:0.5rem;
+       
+    }
+
+    /* form */
+    .form-box{
+        width:100vw;
+        display:block;
+    }
+
+    form{
+         margin-top: 0rem;
+         margin-left: 0rem;
+         margin-right: 0rem;
+         width: 100vw;
+     }
+     form div{
+         margin-bottom: 0.9rem;
+     }
+     form input[type="email"], input[type="text"],textarea{
+         padding-bottom:0.4rem;
+         padding-top: 0.4rem;
+         font-size: 0.6rem;
+     }
+     button{
+         height:30px;
+         padding: 2px;
+         font-size: 0.7rem;
+     }
+
+/* sidebar */
+.sidebar{
+    flex:0;
+        margin-top: 1.5rem;  
+        text-align: start;
+        line-height: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .sidebar h1{
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding-bottom: 1rem;
+    }
+    .sidebar h2{
+        padding-bottom: 0.8rem;
+        font-size: 0.7rem;
+    }
+    .sidebar p{
+        font-size: 0.5rem;
+    }
+    
+    .icon{
+        font-size:1.2rem;
+        margin-top:1rem;
+        text-align: start;
+       
+    }
+    
+    .icon i{
+        padding: 0.2rem;
+    }
+    .icon i:hover{
+        font-size: 1rem;
+        box-shadow: 1px 1px 1px white;
+    } 
+    footer{
+        font-size: 0.5rem;
+        padding:0.2rem;
+    }
+}
