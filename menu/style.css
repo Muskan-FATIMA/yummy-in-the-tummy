@@ -4,6 +4,12 @@
     font-family: 'Poppins', sans-serif;
 }
 /* utility classes */
+
+.for-back-icons{
+    margin-top: 0.5rem;
+    padding:1rem;
+    font-weight: 500rem;
+}
 p{
     text-align:center;
     padding: 10px;
@@ -20,7 +26,7 @@ p{
        
 }
     
-    img{
+    .menu-img{
         height: 250px;
         width:350px;
         border-radius: 50%;

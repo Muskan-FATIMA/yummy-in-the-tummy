@@ -26,6 +26,7 @@ font-family: 'Poppins', sans-serif;
     opacity:0.5rem;
 }
 
+
 .contact-items{ 
    
     height:15rem;
@@ -59,7 +60,10 @@ margin-bottom: 5rem;
 
 
 /* form */
-
+.back-icons{
+    margin-top:0.5rem;
+    padding:0.5rem;
+}
     
 .form-box{
     position: relative;

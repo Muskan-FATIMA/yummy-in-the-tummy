@@ -20,6 +20,12 @@
     z-index: -1;
   
  }
+ .for-back-icons{
+    margin-top: 0.5rem;
+    padding:1rem;
+}
+
+
  h1{
 
     font-size: 3rem;

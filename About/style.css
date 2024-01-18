@@ -17,6 +17,11 @@
     z-index: -1;
     opacity: 0.9;
 }
+.for-back-icons{
+    margin-top: 0.5rem;
+    padding:1rem;
+    font-weight: 500rem;
+}
 .about{
     position: relative;
     width:50vw;
