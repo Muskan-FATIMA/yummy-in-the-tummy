@@ -123,6 +123,11 @@ font-size:1.2rem ;
         padding-bottom: 0px;
         padding-top: 0px;
         }
+
+
+        .for-back-icons{
+            margin-top: 0;
+            padding:0.2rem;        }
         h3{
             text-align:center;
             margin: 5px;
@@ -131,8 +136,10 @@ font-size:1.2rem ;
             color: white;
            
     }
+
+
         
-        img{
+        .menu-img{
             height: 100px;
             width:170px;
             border-radius: 50%;

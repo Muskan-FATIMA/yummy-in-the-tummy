@@ -160,6 +160,10 @@ div label{
 /* media query */
 
 @media(max-width:1100px){
+    .back-icons{
+        margin-top:0;
+        padding:0.2rem;
+    }
     #contact{
         flex-direction: column;
         gap:0rem;
