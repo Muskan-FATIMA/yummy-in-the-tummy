@@ -115,9 +115,9 @@ p{
     }
     .box img{
 
-        height:90px;
-        border-radius: 10px;
-        margin-left:7.5rem;
+        height:80px;
+        border-radius: 20px;
+        margin-left:9rem;
         text-align: center;
         
     
@@ -127,6 +127,7 @@ p{
         font-size: 0.9rem;
         padding: 5px;
         margin:5px;
+        margin-left: 0;
         /* color:rgba(221, 135, 74, 0.974); */
     }
     p{
